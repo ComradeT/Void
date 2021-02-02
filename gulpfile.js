@@ -18,7 +18,7 @@ function browsersync() {
 }
 
 function cleanDist() {
-    return del('dist')
+    return del('docs')
 }
 
 function images() {
@@ -36,7 +36,7 @@ function images() {
                 })
             ]
         ))
-        .pipe(dest('dist/images'))
+        .pipe(dest('docs/images'))
 }
 
 function scripts() {
@@ -69,7 +69,7 @@ function build() {
         'app/js/main.min.js',
         'app/*.html'
     ], {base: 'app'})
-    .pipe(dest('dist'))
+    .pipe(dest('docs'))
 }
 
 function watching() {
