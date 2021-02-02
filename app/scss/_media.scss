@@ -1,0 +1,545 @@
+@media screen and (max-width: 640px){
+    .container{
+        width: 440px;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1440px){
+    .container{
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .header{
+        &__container{
+            padding-top: 20px;
+        }
+    }
+    .top{
+        &__title{
+            padding-top: 50px;
+            font-size: 50px;
+            line-height: 60px;
+            margin-bottom: 40px;
+        }
+        &__desc {
+            margin-bottom: 60px;
+        }
+    }
+    .cases {
+        padding-top: 160px;
+        margin-bottom: 160px;
+        &__title {
+            margin-bottom: 50px;
+        }
+    }
+    .consult {
+        &__btn{
+            width: 350px;
+            padding: 18px 80px;
+        }
+    }
+    .work{
+        padding-top: 150px;
+        padding-bottom: 100px;
+        &__inner-title{
+            width: 20%;
+        }
+    }
+    .package{
+        padding-top: 50px;
+        padding-bottom: 120px;
+        &__title{
+            margin-bottom: 120px;
+        }
+        &__cart{
+            padding: 180px 30px 0;
+            &:nth-child(2){
+                padding-top: 130px;
+            }
+        }
+        &__cart-title{
+            font-size: 30px;
+            line-height: 38px;
+            margin-bottom: 40px;
+        }
+    }
+    .clients{
+        padding-bottom: 120px;
+        &-link-desctop{
+            &:nth-child(5){
+                border-right: 1px solid #F8F8F8;
+                border-left: none;
+                border-bottom: 1px solid #F8F8F8;
+            }
+            &:nth-child(6){
+                border-bottom: 1px solid #F8F8F8;
+            }
+            &:nth-child(7){
+                border-bottom: 1px solid #F8F8F8;
+            }
+            &:nth-child(8){
+                border-right: none;
+                border-bottom: 1px solid #F8F8F8;
+            }
+            &:nth-child(10){
+                border-left: 1px solid #F8F8F8;
+            }
+        }
+    }
+    .reviews{
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+    .application{
+        .form{
+            &__buttons{
+                margin-top: 100px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1250px){
+    .container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .work{
+        &__inner-title{
+            width: 25%;
+        }
+    }
+    .clients{
+        &-link-desctop{
+            &:nth-child(3){
+                border-right: none;
+            }
+            &:nth-child(4){
+                border-right: 1px solid #F8F8F8;
+            }
+            &:nth-child(6){
+                border-right: none;
+            }
+            &:nth-child(8){
+                border-right: 1px solid #F8F8F8;
+            }
+            &:nth-child(9){
+                border-bottom: 1px solid #F8F8F8;
+            }
+            &:nth-child(10){
+                border-left: 1px solid #F8F8F8;
+                border-right: 1px solid #F8F8F8;
+            }
+        }
+    }
+}
+@media screen and (max-width: 1024px){
+    .container{
+        width: 800px;
+        margin: 0 auto;
+    }
+    .top{
+        &__title{
+            padding-top: 100px;
+            margin-bottom: 60px;
+        }
+        &__desc {
+            margin-bottom: 60px;
+        }
+    }
+    .package{
+        &__carts{
+            display: block;
+        }
+        &__cart{
+            width: 80%;
+            margin: 0 auto 50px;
+        }
+    }
+    .work{
+        &__inner-item{
+            padding-right: 40px;
+            margin-bottom: 40px;
+        }
+        &__inner-title{
+            width: 35%;
+        }
+        &__inner-desc{
+            width: 100%;
+        }
+    }
+    .clients{
+        &-link-desctop{
+            &:nth-child(3){
+                border-right: 1px solid #F8F8F8;
+                border-left: none;
+            }
+            &:nth-child(4){
+                border-right: none;
+            }
+            &:nth-child(8){
+                border-right: none;
+            }
+            &:nth-child(9){
+                border-bottom: none;
+            }
+            &:nth-child(10){
+                border-right: none;
+            }
+        }
+    }
+    .application{
+        .form{
+            &__container{
+                display: block;
+            }
+            &__input-contact{
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .btn-submit{
+                margin-top: 50px;
+                width: 100%;
+            }
+        }
+    }
+}
+@media screen and (max-width: 800px){
+    .container{
+        width: 600px;
+        margin: 0 auto;
+    }
+    .header{
+        background-color: white;
+        padding-bottom: 5px;
+    }
+    .top {
+        background-color: #F8F8FA;
+        background-image: url(../images/top-bg-mobile.jpg);
+        background-position: top;
+        background-size: 100%;
+        height: 100vh;
+        &__title {
+            padding-top: 470px;
+            width: 100%;
+        }
+        &__desc {
+            font-size: 22px;
+            line-height: 30px;
+            width: 100%;
+        }
+    }
+    .cases {
+        &__slide-img{
+            width: 100%;
+        }
+    }
+    .consult {
+        &__inner{
+            display: block;
+        }
+        &__desc{
+            width: 100%;
+            margin-bottom: 58px;
+        }
+    }
+    .work{
+        &__inner-item{
+            display: block;
+        }
+        &__inner-title{
+            width: 40%;
+            padding: 30px 30px 15px;
+        }
+        &__inner-desc{
+            width: 100%;
+            padding: 0 30px 30px 30px;
+        }
+    }
+    .clients{
+        &__carts-desktop{
+            display: none;
+        }
+        &__swiper-container{
+            display: block;
+        }
+        .clients__swiper-button-next{
+            visibility: visible;
+        }
+        .clients__swiper-button-prev{
+            visibility: visible;
+            left: 89%;
+        }
+    }
+    .reviews{
+        &__slide-desc{
+            width: 100%;
+            margin: 0 auto;
+            margin-bottom: 52px;
+        }
+        &__swiper-button-next{
+            display: none;
+        }
+        &__swiper-button-prev{
+            display: none;
+        }
+    }
+    .application{
+        &__number-question{
+            display: none;
+        }
+        .number-mobile{
+            display: inline-flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+        .form{
+            &__buttons{
+                justify-content: space-between;
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px){
+    .container{
+        width: 500px;
+    }
+    .top {
+        &__title {
+            padding-top: 320px;
+            font-size: 70px;
+            line-height: 84px;
+        }
+    }
+    .cases {
+        padding-top: 100px;
+       margin-bottom: 100px;
+    }
+    .clients{
+        padding-bottom: 100px;
+        .clients__swiper-button-prev{
+            left: 87%;
+        }
+        &__slide-link{
+            width: 250px;
+        }
+    }
+    .decoration{
+       display: none;
+    }
+    .application{
+        padding-top: 100px;
+        padding-bottom: 100px;
+        &__decoration{
+            display: none;
+        }
+    }
+    .footer{
+        text-align: center;
+        padding-bottom: 0;
+        &__social{
+            margin-bottom: 30px;
+        }
+        &__bottom{
+            display:block;
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .container{
+        width: 400px;
+    }
+    .top {
+        &__title {
+            padding-top: 320px;
+            font-size: 60px;
+            line-height: 74px;
+        }
+    }
+    .work{
+        padding-bottom: 50px;
+    }
+    .package{
+        padding-bottom: 50px;
+        &__cart {
+            width: 95%;
+            margin: 0 auto 50px;
+        }
+    }
+    .clients{
+        padding-top: 50px;
+        .clients__swiper-button-next{
+            visibility: hidden;
+        }
+        .clients__swiper-button-prev{
+            visibility: hidden;
+        }
+        &__slide-link{
+            width: 200px;
+        }
+    }
+    .application{
+        &__title-container{
+            padding: 20px;
+        }
+        .form{
+            padding: 0 20px 20px;
+            &__button{
+                padding: 19px 40px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 450px){
+    .container{
+        width: 380px;
+    }
+    .header{
+        &__container {
+            padding-top: 0;
+        }
+    }
+    .top {
+        height: 135vh;
+        &__title {
+            padding-top: 280px;
+            font-size: 50px;
+            line-height: 64px;
+        }
+    }
+    .clients{
+        &__slide{
+            flex-wrap: wrap;
+        }
+        &__slide-link{
+            width: 280px;
+            &:nth-child(1){
+                border-right: none;
+                border-bottom: none;
+            }
+            &:nth-child(2){
+                border-bottom:none;
+            }
+            &:nth-child(3){
+                border-right: none;
+            }
+        }
+    }
+}
+@media screen and (max-width: 400px){
+    .container{
+        width: 370px;
+    }
+    .top{
+        height: 147vh;
+    }
+}
+@media screen and (max-width: 380px){
+    .container{
+        width: 350px;
+    }
+    .top {
+        &__title {
+            padding-top: 260px;
+            font-size: 45px;
+            line-height: 54px;
+        }
+    }
+    .work{
+        padding-top: 50px;
+    }
+    .application{
+        .form{
+            &__button{
+                padding: 19px 34px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 360px){
+    .container{
+        width: 340px;
+    }
+    .top{
+        &__btn{
+            display: block;
+            padding: 18px 80px;
+            white-space: nowrap;
+        }
+    }
+}
+@media screen and (max-width: 350px){
+    .container{
+        width: 330px;
+    }
+    .application{
+        .form{
+            &__button{
+                padding: 19px 30px;
+            }
+        }
+    }
+}
+@media screen and (max-width: 340px){
+    .container{
+        width: 320px;
+    }
+    .title {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .top {
+        &__title {
+            padding-top: 230px;
+            font-size: 40px;
+            line-height: 50px;
+        }
+    }
+    .consult{
+        .consult__btn {
+            display: block;
+            width: 100%;
+            padding: 18px 80px;
+        }
+    }
+}
+@media screen and (max-width: 330px){
+    .container{
+        width: 310px;
+    }
+    .application{
+        .form{
+            &__button{
+                padding: 19px 28px;
+            }
+        }
+    }
+}
+@media screen and (min-height: 750px),
+        screen and (max-width: 350px) {
+    .top{
+        height: 120vh;
+    }
+}
+@media screen and (max-width: 320px){
+    .container{
+        width: 300px;
+    }
+    .top{
+        height: 165vh;
+        &__btn{
+            padding: 18px 65px;
+        }
+    }
+    .consult{
+        .consult__btn {
+            padding: 18px 65px;
+        }
+    }
+    .application{
+        .form{
+            &__button{
+                padding: 19px 25px;
+            }
+        }
+    }
+}
