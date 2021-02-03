@@ -348,6 +348,7 @@
         width: 400px;
     }
     .top {
+        height: calc(110vh - 60px);
         &__title {
             padding-top: 320px;
             font-size: 60px;
@@ -426,7 +427,7 @@
         }
     }
     .top {
-        height: 125vh;
+        height: calc(125vh - 60px);
         &__title {
             padding-top: 280px;
             font-size: 50px;
@@ -461,7 +462,7 @@
         width: 370px;
     }
     .top{
-        height: 137vh;
+        height: calc(137vh - 60px);
     }
 }
 @media screen and (max-width: 380px){
@@ -548,7 +549,7 @@
 @media screen and (min-height: 750px),
         screen and (max-width: 350px) {
     .top{
-        height: 110vh;
+        height: calc(110vh - 60px);
     }
 }
 @media screen and (max-width: 320px){
@@ -556,7 +557,7 @@
         width: 300px;
     }
     .top{
-        height: 155vh;
+        height: calc(155vh - 60px);
         &__btn{
             padding: 18px 65px;
         }
