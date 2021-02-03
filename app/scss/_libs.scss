@@ -95,7 +95,7 @@ body.lock{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    padding-bottom: 320px;
     &__title {
         @extend %sf-bold;
         padding-top: 170px;
@@ -564,7 +564,7 @@ body.lock{
                 content: "";
                 position: absolute;
                 left: 4px;
-                top: 9px;
+                top: 8px;
                 width: 12px;
                 height: 12px;
                 background-color: #62D6B3;
