@@ -1,9 +1,4 @@
-@media screen and (max-width: 640px){
-    .container{
-        width: 440px;
-        margin: 0 auto;
-    }
-}
+
 @media screen and (max-width: 1440px){
     .container{
         width: 1200px;
@@ -303,11 +298,15 @@
     .container{
         width: 500px;
     }
+    .title{
+        font-size: 34px;
+        line-height: 40px;
+    }
     .top {
         &__title {
             padding-top: 320px;
-            font-size: 70px;
-            line-height: 84px;
+            font-size: 60px;
+            line-height: 74px;
         }
     }
     .cases {
@@ -355,18 +354,38 @@
             line-height: 74px;
         }
     }
+    .cases {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
     .work{
-        padding-bottom: 50px;
+        padding-bottom: 30px;
+        &__title{
+            margin-bottom: 35px;
+        }
+    }
+    .consult {
+        background-color: #F8F8FA;
+        padding-top: 30px;
+        padding-bottom: 30px;
     }
     .package{
-        padding-bottom: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         &__cart {
             width: 95%;
             margin: 0 auto 50px;
+            &:last-child{
+                margin: 0;
+            }
         }
     }
     .clients{
-        padding-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &__title{
+            margin-bottom: 10px;
+        }
         .clients__swiper-button-next{
             visibility: hidden;
         }
@@ -377,7 +396,12 @@
             width: 200px;
         }
     }
+    .reviews {
+        padding-bottom: 30px;
+    }
     .application{
+        padding-top: 30px;
+        padding-bottom: 30px;
         &__title-container{
             padding: 20px;
         }
@@ -387,6 +411,9 @@
                 padding: 19px 40px;
             }
         }
+    }
+    .footer{
+        padding-top: 30px;
     }
 }
 @media screen and (max-width: 450px){
@@ -399,11 +426,15 @@
         }
     }
     .top {
-        height: 135vh;
+        height: 125vh;
         &__title {
             padding-top: 280px;
             font-size: 50px;
             line-height: 64px;
+            margin-bottom: 30px;
+        }
+        &__desc{
+            margin-bottom: 30px;
         }
     }
     .clients{
@@ -430,7 +461,7 @@
         width: 370px;
     }
     .top{
-        height: 147vh;
+        height: 137vh;
     }
 }
 @media screen and (max-width: 380px){
@@ -517,7 +548,7 @@
 @media screen and (min-height: 750px),
         screen and (max-width: 350px) {
     .top{
-        height: 120vh;
+        height: 110vh;
     }
 }
 @media screen and (max-width: 320px){
@@ -525,7 +556,7 @@
         width: 300px;
     }
     .top{
-        height: 165vh;
+        height: 155vh;
         &__btn{
             padding: 18px 65px;
         }
